@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello World"
+
+      - name: Say I Love Linux
+        run: |
+          echo "I Love Linux" \
+          echo "I Love NixOS" \
+          echo "I Use NixOS, BTW" \
